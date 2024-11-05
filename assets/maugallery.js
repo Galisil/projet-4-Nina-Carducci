@@ -233,8 +233,8 @@
         return;
       }
       $(".active-tag").removeClass("active active-tag");
-      $(this).addClass("active-tag");
-      /// j'ai rajouté $(this).style("background-color: #BEB45A"); pour essayer de changer la couleur filtre selec
+      $(this).addClass("active active-tag");
+      /// j'ai rajouté "active" devant active-tag, comme pour le bouton tous selectionné par défaut (consulté via devtools chrome)
 
       var tag = $(this).data("images-toggle");
 
