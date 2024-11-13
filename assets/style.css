@@ -112,6 +112,7 @@ body {
   position: relative; /*= relative à la base, puis j'ai essayé static*/
   margin-bottom: 0 !important; /*est ce que ce "important" a une incidence sur la perf?*/
   padding: 0;
+  /*width: 33% à ajouter ???*/
   /*max-width: 400px; /*ajout*/
   /*max-height: 400px; /*ajout*/
 }
