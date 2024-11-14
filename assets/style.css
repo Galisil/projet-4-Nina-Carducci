@@ -202,16 +202,26 @@ body {
 #contact .container {
   display: flex;
 }
+
 .picture.right::before {
   content: " ";
   background-color: #beb45a;
-  width: 374px;
-  height: 329px;
+  /* width: 374px;
+  height: 329px;*/
+  /*essai remplacement width et height par les mêmes mesures que picture left*/
+  width: 100%;
+  height: 30%;
   position: absolute;
   bottom: 0;
   right: 0;
   z-index: -1;
 }
+/*la partie picture.right suivante: je l'ai rajoutée pour voir si cls amélioré*/
+.picture.right {
+  width: 100%;
+  height: 30%;
+}
+
 .form-container {
   flex: 2;
 }
@@ -278,6 +288,13 @@ input[type="submit"] {
     left: 0;
     z-index: -1;
   }
+
+  /*la partie picture.left suivante: je l'ai rajoutée pour voir si cls amélioré*/
+  .picture.left {
+    width: 100%;
+    height: 30%;
+  }
+
   .about-me__title {
     text-align: center;
     margin-top: 1em;
