@@ -8,7 +8,7 @@
     <!--meta description ajouté-->
     <meta
       name="description"
-      content="Photographe freelance située à Paris, je propose mes services pour vos portraits ou pour intervenir lors de vos événements afin de capturer le meilleur de l'instant"
+      content="Photographe freelance située à Bordeaux, je propose mes services pour vos portraits ou pour intervenir lors de vos événements afin de capturer le meilleur de l'instant"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/bootstrap/bootstrap.css" />
@@ -30,6 +30,23 @@
     <script src="./assets/maugallery.js" defer></script>
     <script src="./assets/scripts.js" defer></script>
     <!--j'ai ajouté tous les defer, jsp si c'est pertinent-->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Photographer",
+        "name": "Nina Carducci",
+        "jobTitle": "Photographe freelance",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "68 avenue Alsace-Lorraine 33200",
+          "addressLocality": "Bordeaux",
+          "addressCountry": "France"
+        },
+        "url": "https://galisil.github.io/projet-4-Nina-Carducci/",
+        "telephone": "+33 5 56 67 78 89",
+        "description": "Photographe freelance à Bordeaux spécialisée dans les portraits, les événements, et la capture des émotions."
+      }
+    </script>
   </head>
   <body>
     <div class="top-header">
@@ -124,8 +141,11 @@
     </div>
     <div id="about">
       <div class="picture left">
-        <img src="./assets/images/nina.jpg" alt="photo de Nina Carducci" />
-        <!--changé png pour jpg, puis pour webp-->
+        <img
+          src="./assets/images/nina.jpg"
+          alt="portrait de Nina Carducci - photographe freelance à Bordeaux"
+        />
+        <!--changé png pour jpg-->
       </div>
       <div id="about-me">
         <h2 class="about-me__title">A propos de moi</h2>
@@ -144,6 +164,12 @@
           approche, ma technique. Rendre ces moments immortels, afin que vous
           puissiez y puiser de l’amour, du bonheur, de la tendresse et de
           lumière à chaque fois que vous poserez les yeux sur vos photos.
+        </p>
+        <p>
+          Mes locaux sont situés au 68 avenue Alsace-Lorraine 33200, à Bordeaux.
+          N'hésitez pas à me contacter pour plus d'informations, je serais ravie
+          de vous répondre ! Je suis joignable du lundi au vendredi de 10h à 19h
+          au 05.56.67.78.89.
         </p>
       </div>
     </div>
