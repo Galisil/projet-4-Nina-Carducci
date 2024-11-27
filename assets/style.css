@@ -41,6 +41,10 @@ body {
 .social-link img {
   width: 20px;
 }
+/*test pour contraste carousel (wave).........................*/
+.text-carousel {
+  color: red;
+}
 
 #about {
   display: flex;
@@ -103,7 +107,7 @@ body {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #beb45a;
+  background-color: #8c750e;
   border-radius: 0;
 }
 .nav-pills .nav-link {
@@ -208,7 +212,7 @@ body {
 
 .picture.right::before {
   content: " ";
-  background-color: #beb45a;
+  background-color: #8c750e;
   /* width: 374px;
   height: 329px;*/
   /*essai remplacement width et height par les mêmes mesures que picture left*/
@@ -253,7 +257,7 @@ form textarea {
   margin-bottom: 20px;
 }
 input[type="submit"] {
-  background-color: #beb45a;
+  background-color: #8c750e;
   padding: 0.5em 1em;
 }
 
