@@ -42,8 +42,12 @@ body {
   width: 20px;
 }
 /*test pour contraste carousel (wave).........................*/
-.text-carousel {
+/*.text-carousel {
   color: red;
+}*/
+
+.carousel-inner {
+  color: black;
 }
 
 #about {
