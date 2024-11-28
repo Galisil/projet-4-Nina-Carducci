@@ -41,11 +41,8 @@ body {
 .social-link img {
   width: 20px;
 }
-/*test pour contraste carousel (wave).........................*/
-/*.text-carousel {
-  color: red;
-}*/
 
+/* essais pour contraster boutons défilement slider
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   background-color: #be570d;
@@ -53,6 +50,7 @@ body {
   padding: 25px;
   color: #000;
 }
+*/
 
 .carousel-inner img {
   color: black;
