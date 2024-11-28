@@ -42,16 +42,6 @@ body {
   width: 20px;
 }
 
-/* essais pour contraster boutons défilement slider
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  background-color: #be570d;
-  border-radius: 20%;
-  padding: 25px;
-  color: #000;
-}
-*/
-
 .carousel-inner img {
   color: black;
 }
