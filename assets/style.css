@@ -46,6 +46,13 @@ body {
   color: red;
 }*/
 
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-image: none;
+  color: #f6d2b8;
+  font-size: 3.5em;
+}
+
 .carousel-inner img {
   color: black;
 }

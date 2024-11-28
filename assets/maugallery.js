@@ -62,7 +62,7 @@
       $.fn.mauGallery.methods.prevImage(options.lightboxId);
     });
     $(".gallery").on("click", ".mg-next", () => {
-      console.log("jvais péter un plomb"); //on rentre bien dans la fonction
+      console.log("test"); //on rentre bien dans la fonction
       $.fn.mauGallery.methods.nextImage(options.lightboxId); // donc le pb doit venir de cette ligne
     });
   };
